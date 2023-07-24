@@ -19,7 +19,7 @@ namespace Lab5Ex2
 
         public override string ToString()
         {
-            return $"Vagon de marfa. Tip marfa {tipMarfa}. Cantitatea marfii {capacitateIncarcare}. Anul fabricatiei: {anFabricatie}";
+            return $"\nVagon de marfa. Tip marfa {tipMarfa}. Cantitatea marfii {capacitateIncarcare}. Anul fabricatiei: {anFabricatie}. ";
         }
 
     }

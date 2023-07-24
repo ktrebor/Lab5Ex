@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Lab5Ex2
 {
@@ -60,21 +61,22 @@ namespace Lab5Ex2
 
         public override string ToString()
         {
-
-            Console.WriteLine(locomotiva.ToString());
+            string rezultat = $"Nume tren: {nume}. ";
+            
+            rezultat += locomotiva.ToString();
 
             foreach (Vagon vagon in listaVagoane)
             {
                 if (vagon is VagonPersoane)
                 {
-                    Console.WriteLine(vagon.ToString());
+                    rezultat += vagon.ToString();
                 }
                 if (vagon is VagonDeMarfa)
                 {
-                    Console.WriteLine(vagon.ToString());
+                    rezultat += vagon.ToString();
                 }
             }
-            return $"Nume tren: {nume}. ";
+            return rezultat;
         }
     }
 }

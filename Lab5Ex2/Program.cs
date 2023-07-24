@@ -24,11 +24,13 @@ namespace Lab5Ex2
 
             accelerat.PleacaDinGara();
             accelerat.OpresteInGara();
-/*            Console.WriteLine(locomotivaDiesel.ToString());
+            Console.WriteLine(locomotivaDiesel.ToString());//primesc valoarea puterii?
+            /*
             Console.WriteLine(ocazional.ToString());
             Console.WriteLine(navetisti.ToString());
-            Console.WriteLine(marfaPorumb.ToString());*/
-            Console.WriteLine(accelerat.ToString());
+            Console.WriteLine(marfaPorumb.ToString());
+            */
+            Console.WriteLine(accelerat.ToString()); //aici la locomotiva, nu primesc valoarea puterii?
 
         }
     }

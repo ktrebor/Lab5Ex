@@ -27,7 +27,7 @@ namespace Lab5Ex2
 
         public override string ToString()
         {
-            return $"Vagon de persoane. Numar locuri {numarLocuri}. Anul fabricatiei {anFabricatie}. Masa vagon: {masaVagon}";
+            return $"\nVagon de persoane. Numar locuri {numarLocuri}. Anul fabricatiei {anFabricatie}. Masa vagon: {masaVagon}. ";
         }
     }
 }

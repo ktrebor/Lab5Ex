@@ -33,7 +33,7 @@ namespace Lab5Ex2
 
         public override string ToString()
         {
-            return $"Putere locomotiva: {putere} kW";
+            return $"\nPutere locomotiva: {putere}kW. ";
         }
     }
 }
