@@ -24,8 +24,6 @@ namespace Lab5Ex2
 
             accelerat.PleacaDinGara();
             accelerat.OpresteInGara();
-
-
         }
     }
 }

@@ -41,6 +41,7 @@ namespace Lab5Ex2
 
         public void OpresteInGara()
         {
+            locomotiva.Opreste();
             foreach (Vagon vagon in listaVagoane)
             {
                 if (vagon is VagonPersoane)
@@ -54,7 +55,7 @@ namespace Lab5Ex2
                     vpunu.OpresteAer();
                 }
             }
-            locomotiva.Opreste();
+            
         }
     }
 }
