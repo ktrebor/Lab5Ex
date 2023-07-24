@@ -18,5 +18,11 @@ namespace Lab5Ex2
             this.anFabricatie = anFabricatie;
             this.masaVagon = masaVagon;
         }
+
+        public override string ToString()
+        {
+            string rezultatInitial = base.ToString();
+            return rezultatInitial + masaVagon + anFabricatie;
+        }
     }
 }

@@ -30,5 +30,10 @@ namespace Lab5Ex2
         {
             Console.WriteLine("Am oprit locomotiva");
         }
+
+        public override string ToString()
+        {
+            return $"Putere locomotiva: {putere} kW";
+        }
     }
 }

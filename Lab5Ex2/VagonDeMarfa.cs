@@ -17,5 +17,10 @@ namespace Lab5Ex2
             this.capacitateIncarcare = capacitateIncarcare;
         }
 
+        public override string ToString()
+        {
+            return $"Vagon de marfa. Tip marfa {tipMarfa}. Cantitatea marfii {capacitateIncarcare}. Anul fabricatiei: {anFabricatie}";
+        }
+
     }
 }

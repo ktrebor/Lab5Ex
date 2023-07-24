@@ -24,5 +24,10 @@ namespace Lab5Ex2
         {
             Console.WriteLine("Atentie se deschid usile");
         }
+
+        public override string ToString()
+        {
+            return $"Vagon de persoane. Numar locuri {numarLocuri}. Anul fabricatiei {anFabricatie}. Masa vagon: {masaVagon}";
+        }
     }
 }

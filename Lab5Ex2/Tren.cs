@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -54,8 +55,26 @@ namespace Lab5Ex2
                     VagonPersoaneClasaUnu vpunu = vagon as VagonPersoaneClasaUnu;
                     vpunu.OpresteAer();
                 }
+            }   
+        }
+
+        public override string ToString()
+        {
+
+            Console.WriteLine(locomotiva.ToString());
+
+            foreach (Vagon vagon in listaVagoane)
+            {
+                if (vagon is VagonPersoane)
+                {
+                    Console.WriteLine(vagon.ToString());
+                }
+                if (vagon is VagonDeMarfa)
+                {
+                    Console.WriteLine(vagon.ToString());
+                }
             }
-            
+            return $"Nume tren: {nume}. ";
         }
     }
 }
